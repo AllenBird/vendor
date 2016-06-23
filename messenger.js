@@ -62,7 +62,7 @@ window.Messenger._ = (function() {
 
     // Establish the object that gets returned to break out of a loop iteration.
     var breaker = {};
-  
+
     var each = _.each = _.forEach = function(obj, iterator, context) {
         if (obj == null) return;
         if (nativeForEach && obj.forEach === nativeForEach) {
@@ -1217,7 +1217,7 @@ window.Messenger.Events = (function() {
     var $el, $parent, choosen_loc, chosen_loc, classes, defaultOpts, inst, loc, locations, _i, _len;
     defaultOpts = {
       extraClasses: 'messenger-fixed messenger-on-bottom messenger-on-right',
-      theme: 'future',
+      theme: 'base',
       maxMessages: 9,
       parentLocations: ['body']
     };
